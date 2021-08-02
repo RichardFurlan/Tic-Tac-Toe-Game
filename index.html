@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" href = "./assets/images/machados.png">
+    <link rel = "stylesheet" type="text/css" href = "./assets/style.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+
+    <div class = "gameStart">
+        <section>
+            <div class = "game">
+                <h1>Jogo da velha</h1>
+                <div class = "score">
+                    <div id = "player1" class = "player">
+                        <span class = "icon1">🪓</span>
+                        <span id = "scoreP1">0</span>
+                    </div>
+
+                    <div id = "player2" class = "player">
+                        <span class = "icon2">🗡️</span>
+                        <span id = "scoreP2">0</span>
+                    </div>
+
+                </div>
+                
+
+                <div class = "stage">
+                    <div>
+                        <div id = "0" class = "square">
+
+                        </div>
+                        <div id = "1" class = "square">
+
+                        </div>
+                        <div id = "2" class = "square"></div>
+                    </div>
+                    <div>
+                        <div id = "3" class = "square"></div>
+                        <div id = "4" class = "square"></div>
+                        <div id = "5" class = "square"></div>
+                    </div>
+                    <div>
+                        <div id = "6" class = "square"></div>
+                        <div id = "7" class = "square"></div>
+                        <div id = "8" class = "square"></div>
+                    </div>
+                </div>
+
+                <button id = "btn" onclick="restart()">Reiniciar</button>
+            </div>
+
+
+
+        </section>
+
+    </div>    
+
+    <script src = "./assets/game.js"></script>
+    <script src = "./assets/interface.js"></script>
+</body>
+</html>
